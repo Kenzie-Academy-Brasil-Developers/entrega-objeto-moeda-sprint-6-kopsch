@@ -27,9 +27,8 @@ const coin = {
 
   toHTML: function () {
     const image = document.createElement("img");
-    // Colocar uma imagem correspondente a essa valor.
-    // image.src = "./CAMINHO/IMAGEM.JPEG"
-    // image.alt = "Heads/Tails"
+    image.src = "./CAMINHO/IMAGEM.JPEG"
+   image.alt = "Heads/Tails"*
     return image;
   },
 };
